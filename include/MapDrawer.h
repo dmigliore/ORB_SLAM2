@@ -21,6 +21,8 @@
 #ifndef MAPDRAWER_H
 #define MAPDRAWER_H
 
+#define EIGEN_NO_DEBUG
+#define EIGEN_NO_STATIC_ASSERT 
 #include"Map.h"
 #include"MapPoint.h"
 #include"KeyFrame.h"
